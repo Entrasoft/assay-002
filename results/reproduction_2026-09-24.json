@@ -1,0 +1,71 @@
+{
+  "population": {
+    "submitted": 251,
+    "scored": 226,
+    "ranked": 163,
+    "excluded_from_ranking": 88,
+    "never_scored": 25,
+    "scored_not_ranked": 63,
+    "never_scored_equals_organizer_inactive_flag": true
+  },
+  "supplementary_bootstrap_ci95_rho": {
+    "rps": [
+      0.5837017449027484,
+      0.7881856649611273
+    ],
+    "ir": [
+      -0.09909721432932773,
+      0.2062624996484319
+    ],
+    "or": [
+      0.5375466467274144,
+      0.73220569231417
+    ]
+  },
+  "p_value_floor": 4.999750012499375e-05,
+  "rps": {
+    "n": 197,
+    "rho": 0.69517247986026,
+    "p_perm": 4.999750012499375e-05
+  },
+  "ir": {
+    "n": 197,
+    "rho": 0.054527207687984754,
+    "p_perm": 0.22028898555072246
+  },
+  "or": {
+    "n": 197,
+    "rho": 0.6436932294952763,
+    "p_perm": 4.999750012499375e-05,
+    "top_decile": {
+      "k": 19,
+      "mean_rank_b": 36.94736842105263,
+      "null_mean": 99.056925,
+      "null_std": 12.3937441951401,
+      "p": 4.999750012499375e-05
+    }
+  },
+  "rps_robustness": {
+    "cluster_0160_team_months": 596,
+    "total_team_months": 2423,
+    "naive_flagged_teams": 122,
+    "excl_naive": {
+      "n": 88,
+      "rho": 0.6480360350507689,
+      "p_perm": 4.999750012499375e-05
+    },
+    "top_decile": {
+      "k": 19,
+      "mean_rank_b": 56.36842105263158,
+      "null_mean": 99.08176184210525,
+      "null_std": 12.350311025155321,
+      "p": 0.000199990000499975
+    }
+  },
+  "config": {
+    "seed": 20260816,
+    "n_perm": 20000,
+    "n_boot": 10000,
+    "min_months_per_half": 3
+  }
+}
